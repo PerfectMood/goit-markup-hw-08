@@ -1,0 +1,39 @@
+/* icons */
+
+.social-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-icon-list__item {
+  display: flex;
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.social-icon-list__link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.social {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .social-icon-list__link:hover &,
+  .social-icon-list__link:focus & {
+    fill: var(--main-color);
+  }
+}

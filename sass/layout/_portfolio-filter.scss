@@ -1,0 +1,29 @@
+//  Portfolio Filter
+.filter-button-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter1 {
+  display: inline-block;
+  width: 75px;
+}
+.filter2 {
+  display: inline-block;
+  min-width: 130px;
+}
+.filter3 {
+  display: inline-block;
+  min-width: 145px;
+}
+.filter4 {
+  display: inline-block;
+  min-width: 100px;
+}
+.filter5 {
+  display: inline-block;
+  min-width: 75px;
+  margin-right: -8px;
+}
