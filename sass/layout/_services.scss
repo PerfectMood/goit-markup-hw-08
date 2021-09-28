@@ -2,6 +2,10 @@
 
 .services {
   padding-top: 47px;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 .services__title {
   font-weight: 700;
